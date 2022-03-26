@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
     --dark-blue: hsl(217, 28%, 15%);
@@ -20,16 +20,23 @@
 
 body {
     background-color: hsl(218, 28%, 13%);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: var(--white);
 
 }
 
+button,
+h2,
+h3,
+nav a {
+    font-family: 'Raleway', sans-serif;
+}
+
 .container {
     width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 header {
@@ -43,7 +50,7 @@ header nav {
 }
 
 header nav a {
-    padding: 0 15px;
+    padding: 0 10px;
     text-decoration: none;
     color: var(--white);
 }
@@ -113,7 +120,7 @@ header nav a {
 }
 
 .section-three h3 {
-    margin-bottom: 20px;
+    margin: 25px 0 20px 0;
 }
 
 .section-three p {
@@ -124,6 +131,53 @@ header nav a {
 
 .section-three a {
     color: var(--cyan);
-    text-decoration: underline;
-    text-underline-offset: 8px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    
+}
+
+.arrow {
+    margin-bottom: -3px;
+}
+
+.section-four {
+    width: 80%;
+    margin: 150px auto;
+}
+
+.section-four img {
+    width: 30px;
+    height: 30px;
+}
+
+.founder-profile {
+    width: 300px;
+    height: 200px;
+    background-color: hsl(219, 30%, 18%);
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    line-height: 1.6;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.ceo {
+    margin-top: 20px;
+    display: flex;
+}
+
+.ceo div {
+    margin: -5px 0 0 10px;
+}
+
+.ceo div span {
+    color: hsla(0, 0%, 100%, 0.8);
+    font-weight: bold;
+}
+
+.ceo img {
+    border-radius: 50%;
 }
