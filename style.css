@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --dark-blue: hsl(217, 28%, 15%);
+    --dark-blue: hsl(218, 28%, 13%);
+    --dark-blue: hsl(216, 53%, 9%);
+    --dark-blue: hsl(219, 30%, 18%);
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    --light-red: hsl(0, 100%, 63%);
+    --white: hsl(0, 0%, 100%);
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: var(--white);
+
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+header nav {
+    margin-top: 5px;
+}
+
+header nav a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.image{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.section-one {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.section-one img {
+    margin-top: 10px;
+}
+
+.section-one h2 {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.section-one p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.section-one button {
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: var(--white);
+    background-color: hsl(198, 60%, 50%);
+    cursor: pointer;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+}
+
+.section-two {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.section-two img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.section-two h3 {
+    margin-bottom: 10px;
+}
+
+.section-two p {
+    margin-bottom: 80px;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+
+.section-three {
+    width: 80%;
+    margin: auto;
+}
+
+.section-three h3 {
+    margin-bottom: 20px;
+}
+
+.section-three p {
+    text-align: left;
+    padding-bottom: 10px;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+
+.section-three a {
+    color: var(--cyan);
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
