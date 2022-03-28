@@ -42,11 +42,11 @@ nav a {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 20px 10px;
+    margin: 20px 30px;
 }
 
 header img {
-    width: 80px;
+    width: 90px;
 }
 
 header nav {
@@ -187,7 +187,7 @@ header nav a {
 
 .section-five {
     width: 350px;
-    margin: 150px auto;
+    margin: 150px auto 80px;
     padding: 30px 20px;
     border-radius: 10px;
     text-align: center;
@@ -230,3 +230,56 @@ header nav a {
     transition: all 0.3s ease 0s;
 }
 
+.section-six {
+    margin: 0 30px 0;
+}
+
+.six-image {
+    width: 200px;
+    margin: 0 0 50px 30px;
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contact img{
+    height: 20px;
+    
+}
+
+.contact p{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.end {
+    margin-bottom: 100px;
+}
+
+.links-one,
+.links-two {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.links-one a,
+.links-two a{
+    font-size: 16px;
+    color: var(--white);
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials img {
+    width: 50px;
+    height: 50px;
+    color: white;
+    padding: 0 7px 10px;
+}
