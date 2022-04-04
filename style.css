@@ -59,10 +59,10 @@ header nav a {
     color: var(--white);
 }
 
-.image{
+ .image{
     max-width: 100%;
     margin-bottom: 30px;
-}
+} 
 
 .section-one {
     text-align: center;
@@ -82,6 +82,7 @@ header nav a {
 .section-one p {
     line-height: 1.7;
     margin-bottom: 20px;
+    color: hsla(0, 0%, 100%, 0.8);
 }
 
 .section-one button {
@@ -273,6 +274,11 @@ header nav a {
     margin-bottom: 12px;
 }
 
+.phone {
+    text-decoration: none;
+    color: var(--white);
+}
+
 .socials {
     text-align: center;
 }
@@ -282,4 +288,75 @@ header nav a {
     height: 50px;
     color: white;
     padding: 0 7px 10px;
+}
+
+@media  screen and (min-width: 700px){
+    header img {
+        width: 150px;
+    }
+
+    .section-one {
+        width: 45%;
+        margin: 50px auto;
+    }
+
+    .section-one h2 {
+        font-size: 24px;
+    }
+
+    .section-one p {
+        font-size: 18px;
+    }
+
+    .section-two {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+
+    .two {
+        width: 400px;
+        padding-left: 80px;
+    }
+
+    .second {
+        margin-top: -20px;
+    }
+
+    .section-three {
+        display: flex;
+    }
+
+    .stayprod {
+        margin: 100px 0 0 50px;
+        width: 500px; 
+    }
+
+    .section-three h3 {
+        font-size: 24px;
+    }
+    
+    .section-three p {
+        text-align: left;
+        padding-bottom: 10px;
+        color: hsla(0, 0%, 100%, 0.8);
+    }
+
+    .section-four {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+    }
+
+    .section-five {
+        width: 800px;
+    }
+
+    .section-five h3 {
+        font-size: 24px;
+    }
+
+    .section-five input {
+        width: 400px;
+    }
 }
