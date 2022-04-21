@@ -59,6 +59,11 @@ header nav a {
     color: var(--white);
 }
 
+header nav a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
  .image{
     max-width: 100%;
     margin-bottom: 30px;
@@ -86,8 +91,9 @@ header nav a {
 }
 
 .section-one button {
+    width: 250px;
     margin-bottom: 20px;
-    padding: 10px 50px;
+    padding: 15px 50px;
     border-radius: 30px;
     color: var(--white);
     background-color: hsl(198, 60%, 50%);
@@ -96,6 +102,10 @@ header nav a {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     transition: all 0.3s ease 0s;
+}
+
+.section-one button:hover {
+    background-color: hsla(198, 60%, 50%, 0.9);
 }
 
 .section-two {
@@ -139,7 +149,10 @@ header nav a {
     padding-bottom: 3px;
     text-decoration: none;
     border-bottom: 1px solid;
-    
+}
+
+.section-three a:hover { 
+    color: white;
 }
 
 .arrow {
@@ -308,6 +321,10 @@ header nav a {
         font-size: 18px;
     }
 
+    .section-one button {
+        font-size: 18px;
+    }
+
     .section-two {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -357,6 +374,16 @@ header nav a {
     }
 
     .section-five input {
-        width: 400px;
+        width: 430px;
+        margin-right: 20px;
+    }
+
+    .section-six .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer .lorem p {
+        width: 370px;
     }
 }
